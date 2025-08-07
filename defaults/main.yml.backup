@@ -146,12 +146,12 @@ rhel_09_271040: true
 rhel_09_411100: true
 rhel_09_431010: true
 rhel_09_611025: true
-rhel_09_671010: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_671010: true
 rhel_09_672020: true
 
 #### CAT 2
 rhel_09_211015: true
-rhel_09_211020: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_211020: true
 rhel_09_211030: true
 rhel_09_211040: true
 rhel_09_211055: true
@@ -188,11 +188,11 @@ rhel_09_214010: true
 rhel_09_214030: true
 rhel_09_215010: true
 rhel_09_215020: true
-rhel_09_215025: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_215025: true
 rhel_09_215030: true
 rhel_09_215035: true
 rhel_09_215040: true
-rhel_09_215045: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_215045: true
 rhel_09_215050: true
 rhel_09_215055: true
 rhel_09_215065: true
@@ -235,7 +235,7 @@ rhel_09_231160: true
 rhel_09_231165: true
 rhel_09_231170: true
 rhel_09_231175: true
-rhel_09_231180: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_231180: true
 rhel_09_231185: true
 rhel_09_231200: true
 rhel_09_232010: true
@@ -244,8 +244,8 @@ rhel_09_232020: true
 rhel_09_232025: true
 rhel_09_232030: true
 rhel_09_232035: true
-rhel_09_232040: false  # Disabled - Known to fail STIG compliance scan
-rhel_09_232045: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_232040: true
+rhel_09_232045: true
 rhel_09_232050: true
 rhel_09_232055: true
 rhel_09_232060: true
@@ -286,10 +286,10 @@ rhel_09_232220: true
 rhel_09_232225: true
 rhel_09_232230: true
 rhel_09_232235: true
-rhel_09_232240: false  # Disabled - Known to fail STIG compliance scan
-rhel_09_232245: false  # Disabled - Known to fail STIG compliance scan
-rhel_09_232250: false  # Disabled - Known to fail STIG compliance scan
-rhel_09_232255: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_232240: true
+rhel_09_232245: true
+rhel_09_232250: true
+rhel_09_232255: true
 rhel_09_232260: true
 rhel_09_232265: true
 rhel_09_232270: true
@@ -298,7 +298,7 @@ rhel_09_251010: true
 rhel_09_251015: true
 rhel_09_251020: true
 rhel_09_251030: true
-rhel_09_251035: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_251035: true
 rhel_09_251040: true
 rhel_09_251045: true
 rhel_09_252010: true
@@ -339,7 +339,7 @@ rhel_09_255025: true
 rhel_09_255030: true
 rhel_09_255035: true
 rhel_09_255045: true
-rhel_09_255055: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_255055: true
 rhel_09_255060: true
 rhel_09_255064: true
 rhel_09_255065: true
@@ -352,7 +352,7 @@ rhel_09_255095: true
 rhel_09_255100: true
 rhel_09_255105: true
 rhel_09_255110: true
-rhel_09_255115: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_255115: true
 rhel_09_255120: true
 rhel_09_255125: true
 rhel_09_255130: true
@@ -395,11 +395,11 @@ rhel_09_291040: true
 
 ## CAT2 4xxxxx
 rhel_09_411010: true
-rhel_09_411015: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_411015: true
 rhel_09_411020: true
 rhel_09_411025: true
 rhel_09_411030: true
-rhel_09_411035: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_411035: true
 rhel_09_411040: true
 rhel_09_411045: true
 rhel_09_411050: true
@@ -411,14 +411,14 @@ rhel_09_411075: true
 rhel_09_411080: true
 rhel_09_411085: true
 rhel_09_411090: true
-rhel_09_411095: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_411095: true
 rhel_09_411105: true
 rhel_09_411110: true
 rhel_09_411115: true
-rhel_09_412035: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_412035: true
 rhel_09_412045: true
 rhel_09_412050: true
-rhel_09_412055: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_412055: true
 rhel_09_412060: true
 rhel_09_412065: true
 rhel_09_412070: true
@@ -464,24 +464,24 @@ rhel_09_611140: true
 rhel_09_611145: true
 rhel_09_611155: true
 rhel_09_611160: true
-rhel_09_611165: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_611165: true
 rhel_09_611170: true
 rhel_09_611175: true
 rhel_09_611180: true
 rhel_09_611185: true
 rhel_09_611190: true
 rhel_09_611195: true
-rhel_09_611200: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_611200: true
 rhel_09_611205: true
 
 ### CAT2 63xxxx
 rhel_09_631010: true
-rhel_09_631015: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_631015: true
 rhel_09_631020: true
 ### CAT2 65xxxx
 rhel_09_651010: true
 rhel_09_651015: true
-rhel_09_651020: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_651020: true
 rhel_09_651025: true
 rhel_09_652010: true
 rhel_09_652015: true
@@ -490,9 +490,9 @@ rhel_09_652025: true
 rhel_09_652030: true
 rhel_09_653130: true  # NOTE Required before 652035 can run
 rhel_09_652035: true
-rhel_09_652040: false  # Disabled - Known to fail STIG compliance scan
-rhel_09_652045: false  # Disabled - Known to fail STIG compliance scan
-rhel_09_652050: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_652040: true
+rhel_09_652045: true
+rhel_09_652050: true
 rhel_09_652055: true
 rhel_09_652060: true
 
@@ -505,7 +505,7 @@ rhel_09_653030: true
 rhel_09_653035: true
 rhel_09_653040: true
 rhel_09_653045: true
-rhel_09_653050: false  # Disabled - Known to fail STIG compliance scan
+rhel_09_653050: true
 rhel_09_653055: true
 rhel_09_653060: true
 rhel_09_653065: true

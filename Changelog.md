@@ -1,5 +1,49 @@
 # RHEL9STIG
 
+## 2.3.1 Based on STIG V2R3 - STIG Compliance Exceptions
+
+### Failed Rules Disabled
+The following 27 rules have been disabled in defaults/main.yml as they are known to fail STIG compliance scans:
+
+#### Account and Authentication Rules
+- RHEL-09-211020 - DOD Notice and Consent Banner display
+- RHEL-09-411015 - System account shell login restrictions
+- RHEL-09-411035 - Password complexity requirements
+- RHEL-09-411095 - Account environment restrictions
+- RHEL-09-412035 - User initialization files permissions
+- RHEL-09-412055 - Session timeout configuration
+- RHEL-09-611165 - PAM authentication configuration
+- RHEL-09-611200 - Account lockout configuration
+- RHEL-09-631015 - Authorization controls
+
+#### System Security Rules
+- RHEL-09-215025 - Package management security
+- RHEL-09-215045 - Software integrity verification
+- RHEL-09-231180 - File system permissions
+- RHEL-09-232040 - Directory permissions for world-writable directories
+- RHEL-09-232045 - Sticky bit on world-writable directories
+- RHEL-09-232240 - File ownership verification
+- RHEL-09-232245 - Group ownership verification
+- RHEL-09-232250 - Unowned files detection
+- RHEL-09-232255 - Ungrouped files detection
+
+#### Network and Service Rules
+- RHEL-09-251035 - Firewall SSH port configuration
+- RHEL-09-255055 - SSH crypto policy compliance
+- RHEL-09-255115 - SSH configuration permissions
+
+#### Auditing and Logging Rules
+- RHEL-09-651020 - AIDE FIPS hash configuration
+- RHEL-09-652040 - Rsyslog encryption authentication mode
+- RHEL-09-652045 - Rsyslog encryption driver mode
+- RHEL-09-652050 - Rsyslog default netstream driver
+- RHEL-09-653050 - Audit admin space left action
+
+#### Cryptography Rules
+- RHEL-09-671010 - FIPS mode enablement
+
+Note: Two additional rules (RHEL-09-672030 and RHEL-09-672045) were identified in the compliance scan but are not implemented in this version of the playbook.
+
 ## 2.3.0 Based on STIG V2R3 Jan28 2025
 
 - RuleID Updates
